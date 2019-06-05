@@ -1,0 +1,5 @@
+@W: FX1039 :"d:\photonuser\blahlab5\buart.v":185:2:185:7|User-specified initial value defined for instance buart._rx.hh[1:0] is being ignored. 
+@W: MO129 :"d:\photonuser\blahlab5\lab3_140l.v":983:4:983:7|Sequential instance Lab_UT.dictrl.nextState_al[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\photonuser\blahlab5\dispstring.v":32:3:32:8|Sequential instance Lab_UT.display.dOut[7] is reduced to a combinational gate by constant propagation.
+@W: BN132 :"d:\photonuser\blahlab5\lab3_140l.v":983:4:983:7|Removing instance Lab_UT.dictrl.nextState_al[1] because it is equivalent to instance Lab_UT.dictrl.nextState_al[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock latticehx1k|clk_in with period 15.56ns. Please declare a user-defined clock on object "p:clk_in"

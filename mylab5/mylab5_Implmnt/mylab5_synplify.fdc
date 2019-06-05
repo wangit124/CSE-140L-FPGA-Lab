@@ -1,0 +1,3 @@
+define_attribute {i:uu2.mem0.ram512X8_inst} {syn_noprune} 1
+define_attribute {i:uu2.mem0} {syn_noprune} 1
+define_attribute {i:uu2} {syn_noprune} 1

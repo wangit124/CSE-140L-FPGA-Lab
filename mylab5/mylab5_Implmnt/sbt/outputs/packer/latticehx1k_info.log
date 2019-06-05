@@ -1,0 +1,121 @@
+* ******************************************************************************
+
+* iCEcube Packer
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Jun 5 2019 04:46:03
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Command Line: C:\lscc\iCEcube2.2017.08\sbt_backend\bin\win32\opt\packer.exe  C:\lscc\iCEcube2.2017.08\sbt_backend\devices\ICE40P01.dev  D:/PhotonUser/blahlab5/mylab5/mylab5_Implmnt\sbt\netlist\oadb-latticehx1k  --package  TQ144  --outdir  D:/PhotonUser/blahlab5/mylab5/mylab5_Implmnt\sbt\outputs\packer  --translator  C:\lscc\iCEcube2.2017.08\sbt_backend\bin\sdc_translator.tcl  --src_sdc_file  D:/PhotonUser/blahlab5/mylab5/mylab5_Implmnt\sbt\outputs\placer\latticehx1k_pl.sdc  --dst_sdc_file  D:/PhotonUser/blahlab5/mylab5/mylab5_Implmnt\sbt\outputs\packer\latticehx1k_pk.sdc  --devicename  iCE40HX1K  
+
+***** Device Info *****
+Chip: iCE40HX1K
+Package: TQ144
+Size: 12 X 16
+
+***** Design Utilization Info *****
+Design: latticehx1k
+Used Logic Cell: 878/1280
+Used Logic Tile: 132/160
+Used IO Cell:    10/112
+Used Bram Cell For iCE40: 1/16
+Used PLL For iCE40: 0/1
+Ram Cascading Used: 0
+Lut Cascading Used: 1
+
+***** Clock Info *****
+Clock Domain: clk_g
+Clock Source: latticehx1k_pll_inst.clk 
+Clock Driver: latticehx1k_pll_inst.latticehx1k_pll_inst_RNIQV8B (ICE_GB)
+Driver Position: (6, 17, 1)
+Fanout to FF: 320
+Fanout to Tile: 112
+
+
+***** Placement Info *****
+Logic cell utilization per tile
+    . . . . + . . . . 1 . . . . 
+   ----------------------------
+17|                             
+16|   0 0 0 8 4 6 0 0 0 0 0 0   
+15|   0 1 0 6 8 8 8 7 1 0 0 0   
+14|   0 1 0 6 8 8 6 8 2 0 0 0   
+13|   0 6 0 8 8 8 8 7 8 0 0 0   
+12|   1 8 0 8 8 8 8 8 8 0 1 0   
+11|   8 8 0 8 7 8 7 8 7 0 5 1   
+10|   8 8 0 8 8 8 8 7 7 0 8 3   
+ 9|   0 8 0 8 8 8 7 8 7 0 8 6   
+ 8|   0 8 0 6 7 8 8 5 8 0 8 7   
+ 7|   2 8 0 6 8 8 7 8 8 0 8 8   
+ 6|   8 2 0 8 7 8 8 8 8 0 7 0   
+ 5|   6 8 0 8 8 5 8 8 8 0 8 1   
+ 4|   4 8 0 8 8 8 8 8 8 0 8 1   
+ 3|   1 7 0 7 7 8 8 8 3 0 1 0   
+ 2|   8 8 0 1 0 0 7 8 8 0 1 0   
+ 1|   8 8 0 1 0 0 3 8 7 0 0 0   
+ 0|                             
+
+Maximum number of Logic cells per logic tile: 8
+Average number of Logic cells per logic tile: 6.65
+
+***** Input Pin Density Info *****
+Number of input nets per logic tile
+     .  .  .  .  +  .  .  .  .  1  .  .  .  . 
+   ------------------------------------------
+17|                                           
+16|     0  0  0 13  9 10  0  0  0  0  0  0    
+15|     0  1  0 12 22 15 18  5  4  0  0  0    
+14|     0  2  0  5 16 10 13 19  2  0  0  0    
+13|     0 20  0 20 17 21 21 19 15  0  0  0    
+12|     1 21  0 13 22 21 12 18 13  0  3  0    
+11|    19 17  0 22 15 21 16  4 11  0 14  2    
+10|    20 21  0 21 17 21  7 18 16  0 19 10    
+ 9|     0 20  0 21 22 18 16 18 18  0 19 12    
+ 8|     0 11  0 10 17 12 11 16 13  0 16 16    
+ 7|     2 14  0  8 15 13 11 19 16  0 18 16    
+ 6|    14  2  0 16 22 18 15 13 17  0 15  0    
+ 5|    10 15  0 20 22 10 12 15 21  0  7  2    
+ 4|    11  8  0 15 16 12 13 13 14  0 19  1    
+ 3|     2 14  0 15  9 16 16 17  6  0  3  0    
+ 2|    11 15  0  2  0  0 12 14 17  0  1  0    
+ 1|    12 18  0  1  0  0  8 12  9  0  0  0    
+ 0|                                           
+
+Maximum number of input nets per logic tile: 22
+Average number of input nets per logic tile: 13.48
+
+Number of input pins per logic tile
+     .  .  .  .  +  .  .  .  .  1  .  .  .  . 
+   ------------------------------------------
+17|                                           
+16|     0  0  0 24 11 11  0  0  0  0  0  0    
+15|     0  1  0 14 29 27 31  7  4  0  0  0    
+14|     0  2  0  6 21 32 15 27  2  0  0  0    
+13|     0 24  0 30 22 28 29 24 29  0  0  0    
+12|     1 27  0 30 27 28 30 25 25  0  3  0    
+11|    30 25  0 29 23 30 23 32 25  0 16  2    
+10|    29 26  0 29 29 29 31 22 25  0 31 10    
+ 9|     0 28  0 25 25 31 21 26 24  0 31 16    
+ 8|     0 27  0 12 21 30 28 17 24  0 27 25    
+ 7|     3 28  0  9 31 28 25 24 23  0 31 27    
+ 6|    23  2  0 22 27 29 31 29 25  0 25  0    
+ 5|    18 22  0 30 28 14 28 27 28  0 22  2    
+ 4|    13  8  0 27 28 21 26 26 24  0 24  1    
+ 3|     2 25  0 19 16 23 28 26 11  0  3  0    
+ 2|    24 28  0  2  0  0 24 29 29  0  1  0    
+ 1|    26 31  0  1  0  0  9 28 20  0  0  0    
+ 0|                                           
+
+Maximum number of input pins per logic tile: 32
+Average number of input pins per logic tile: 21.55
+
+***** Run Time Info *****
+Run Time:  1

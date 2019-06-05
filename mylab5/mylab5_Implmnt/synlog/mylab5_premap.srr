@@ -1,0 +1,74 @@
+# Wed Jun 05 04:44:32 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5_scck.rpt 
+Printing clock  summary report in "D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist latticehx1k
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                        Requested     Requested     Clock                                 Clock                     Clock
+Clock                                        Frequency     Period        Type                                  Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------
+System                                       1.0 MHz       1000.000      system                                system_clkgroup           15   
+latticehx1k_pll|PLLOUTCORE_derived_clock     4.0 MHz       252.545       derived (from latticehx1k|clk_in)     Autoconstr_clkgroup_0     286  
+latticehx1k|clk_in                           4.0 MHz       252.545       inferred                              Autoconstr_clkgroup_0     0    
+==============================================================================================================================================
+
+@W: MT531 :"d:\photonuser\blahlab5\lab3_140l.v":983:4:983:7|Found signal identified as System clock which controls 15 sequential elements including Lab_UT.dictrl.nextState_al[2:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Encoding state machine curr_LED[3:0] (in view: work.didp(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\photonuser\blahlab5\lab3_140l.v":332:3:332:8|There are no possible illegal states for state machine curr_LED[3:0] (in view: work.didp(verilog)); safe FSM implementation is not required.
+@N: BN362 :"d:\photonuser\blahlab5\vbuf.v":457:0:457:5|Removing sequential instance vram_wr_tap_4_user[1] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\photonuser\blahlab5\vbuf.v":457:0:457:5|Removing sequential instance vram_wr_tap_4_user[0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 05 04:44:33 2019
+
+###########################################################]

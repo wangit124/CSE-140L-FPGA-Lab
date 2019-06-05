@@ -1,0 +1,1455 @@
+<html><body><samp><pre>
+<!@TC:1559709870>
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2017.08\synpbase
+#OS: Windows 8 6.2
+#Hostname: WIN-CQLDUHAV644
+
+# Wed Jun 05 04:44:30 2019
+
+#Implementation: mylab5_Implmnt
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1559709871> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1559709871> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\PhotonUser\blahlab5\Half_Sec_Pulse_Every_Sec.v" (library work)
+@I::"D:\PhotonUser\blahlab5\Half_Sec_Pulse_Every_Sec_v2.v" (library work)
+@I::"D:\PhotonUser\blahlab5\Lab3_140L.v" (library work)
+@I::"D:\PhotonUser\blahlab5\NBitCounter.v" (library work)
+@I::"D:\PhotonUser\blahlab5\bcd2segment.v" (library work)
+@I::"D:\PhotonUser\blahlab5\buart.v" (library work)
+@I::"D:\PhotonUser\blahlab5\countrce.v" (library work)
+@I::"D:\PhotonUser\blahlab5\decodeKeys.v" (library work)
+@I::"D:\PhotonUser\blahlab5\dispString.v" (library work)
+@I::"D:\PhotonUser\blahlab5\latticehx1k.v" (library work)
+@I::"D:\PhotonUser\blahlab5\regrce.v" (library work)
+@I::"D:\PhotonUser\blahlab5\vbuf.v" (library work)
+<font color=#A52A2A>@W:<a href="@W:CS133:@XP_HELP">CS133</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:67:12:67:23:@W:CS133:@XP_MSG">vbuf.v(67)</a><!@TM:1559709871> | Ignoring property syn_useioff</font>
+Verilog syntax check successful!
+Selecting top level module latticehx1k
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v:698:7:698:20:@N:CG364:@XP_MSG">sb_ice40.v(698)</a><!@TM:1559709871> | Synthesizing module SB_PLL40_CORE in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:355:7:355:22:@N:CG364:@XP_MSG">latticehx1k.v(355)</a><!@TM:1559709871> | Synthesizing module latticehx1k_pll in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:368:47:368:48:@W:CG781:@XP_MSG">latticehx1k.v(368)</a><!@TM:1559709871> | Input EXTFEEDBACK on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:369:48:369:49:@W:CG781:@XP_MSG">latticehx1k.v(369)</a><!@TM:1559709871> | Input DYNAMICDELAY on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:372:51:372:52:@W:CG781:@XP_MSG">latticehx1k.v(372)</a><!@TM:1559709871> | Input LATCHINPUTVALUE on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:374:39:374:40:@W:CG781:@XP_MSG">latticehx1k.v(374)</a><!@TM:1559709871> | Input SDI on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:376:40:376:41:@W:CG781:@XP_MSG">latticehx1k.v(376)</a><!@TM:1559709871> | Input SCLK on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\NBitCounter.v:31:7:31:20:@N:CG364:@XP_MSG">NBitCounter.v(31)</a><!@TM:1559709871> | Synthesizing module N_bit_counter in library work.
+
+	N=32'b00000000000000000000000000000100
+	N_1=32'b00000000000000000000000000000011
+   Generated name = N_bit_counter_4s_3s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\NBitCounter.v:31:7:31:20:@N:CG364:@XP_MSG">NBitCounter.v(31)</a><!@TM:1559709871> | Synthesizing module N_bit_counter in library work.
+
+	N=32'b00000000000000000000000000010011
+	N_1=32'b00000000000000000000000000010010
+   Generated name = N_bit_counter_19s_18s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\Half_Sec_Pulse_Every_Sec.v:44:7:44:29:@N:CG364:@XP_MSG">Half_Sec_Pulse_Every_Sec.v(44)</a><!@TM:1559709871> | Synthesizing module Half_Sec_Pulse_Per_Sec in library work.
+
+	CLK_FREQ=32'b00000000101101110001101100000000
+	CLK_CYCLES_PER_HALF_SEC=32'b00000000010110111000110110000000
+	COUNTER_WIDTH=32'b00000000000000000000000000010111
+   Generated name = Half_Sec_Pulse_Per_Sec_12000000s_6000000s_23s
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\Half_Sec_Pulse_Every_Sec.v:116:44:116:51:@N:CG179:@XP_MSG">Half_Sec_Pulse_Every_Sec.v(116)</a><!@TM:1559709871> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v:501:7:501:12:@N:CG364:@XP_MSG">sb_ice40.v(501)</a><!@TM:1559709871> | Synthesizing module SB_IO in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:43:7:43:12:@N:CG364:@XP_MSG">latticehx1k.v(43)</a><!@TM:1559709871> | Synthesizing module inpin in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:48:33:48:36:@W:CG781:@XP_MSG">latticehx1k.v(48)</a><!@TM:1559709871> | Input LATCH_INPUT_VALUE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:48:33:48:36:@W:CG781:@XP_MSG">latticehx1k.v(48)</a><!@TM:1559709871> | Input CLOCK_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:48:33:48:36:@W:CG781:@XP_MSG">latticehx1k.v(48)</a><!@TM:1559709871> | Input OUTPUT_CLK on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:48:33:48:36:@W:CG781:@XP_MSG">latticehx1k.v(48)</a><!@TM:1559709871> | Input OUTPUT_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:48:33:48:36:@W:CG781:@XP_MSG">latticehx1k.v(48)</a><!@TM:1559709871> | Input D_OUT_1 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:48:33:48:36:@W:CG781:@XP_MSG">latticehx1k.v(48)</a><!@TM:1559709871> | Input D_OUT_0 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG1273:@XP_HELP">CG1273</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:49:21:49:24:@W:CG1273:@XP_MSG">latticehx1k.v(49)</a><!@TM:1559709871> | An input port (port pin) is the target of an assignment - please check if this is intentional</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\buart.v:62:7:62:15:@N:CG364:@XP_MSG">buart.v(62)</a><!@TM:1559709871> | Synthesizing module baudgen2 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\buart.v:132:7:132:13:@N:CG364:@XP_MSG">buart.v(132)</a><!@TM:1559709871> | Synthesizing module rxuart in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CL265:@XP_HELP">CL265</a> : <a href="D:\PhotonUser\blahlab5\buart.v:185:2:185:8:@W:CL265:@XP_MSG">buart.v(185)</a><!@TM:1559709871> | Removing unused bit 2 of hh[2:0]. Either assign all bits or reduce the width of the signal.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\buart.v:42:7:42:14:@N:CG364:@XP_MSG">buart.v(42)</a><!@TM:1559709871> | Synthesizing module baudgen in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\buart.v:91:7:91:11:@N:CG364:@XP_MSG">buart.v(91)</a><!@TM:1559709871> | Synthesizing module uart in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\buart.v:199:7:199:12:@N:CG364:@XP_MSG">buart.v(199)</a><!@TM:1559709871> | Synthesizing module buart in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\NBitCounter.v:31:7:31:20:@N:CG364:@XP_MSG">NBitCounter.v(31)</a><!@TM:1559709871> | Synthesizing module N_bit_counter in library work.
+
+	N=32'b00000000000000000000000000000101
+	N_1=32'b00000000000000000000000000000100
+   Generated name = N_bit_counter_5s_4s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:64:7:64:15:@N:CG364:@XP_MSG">latticehx1k.v(64)</a><!@TM:1559709871> | Synthesizing module resetGen in library work.
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:87:32:87:43:@N:CG179:@XP_MSG">latticehx1k.v(87)</a><!@TM:1559709871> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\Half_Sec_Pulse_Every_Sec_v2.v:43:7:43:32:@N:CG364:@XP_MSG">Half_Sec_Pulse_Every_Sec_v2.v(43)</a><!@TM:1559709871> | Synthesizing module Half_Sec_Pulse_Per_Sec_v2 in library work.
+
+	CLK_FREQ=32'b00000000101101110001101100000000
+	CLK_CYCLES_PER_HALF_SEC=32'b00000000010110111000110110000000
+	COUNTER_WIDTH=32'b00000000000000000000000000010111
+   Generated name = Half_Sec_Pulse_Per_Sec_v2_12000000s_6000000s_23s
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\Half_Sec_Pulse_Every_Sec_v2.v:104:44:104:51:@N:CG179:@XP_MSG">Half_Sec_Pulse_Every_Sec_v2.v(104)</a><!@TM:1559709871> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\decodeKeys.v:45:7:45:17:@N:CG364:@XP_MSG">decodeKeys.v(45)</a><!@TM:1559709871> | Synthesizing module decodeKeys in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:473:10:473:16:@N:CG364:@XP_MSG">Lab3_140L.v(473)</a><!@TM:1559709871> | Synthesizing module dictrl in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdStens; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdSones; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdMtens; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdMones; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal nextState[3:0]; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:983:4:983:8:@W:CL118:@XP_MSG">Lab3_140L.v(983)</a><!@TM:1559709871> | Latch generated from always block for signal nextState_al[3:0]; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdAStens; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdASones; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdAMtens; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL118:@XP_HELP">CL118</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL118:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | Latch generated from always block for signal r_dicLdAMones; possible missing assignment in an if or case statement.</font>
+<font color=#A52A2A>@W:<a href="@W:CL207:@XP_HELP">CL207</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:758:4:758:8:@W:CL207:@XP_MSG">Lab3_140L.v(758)</a><!@TM:1559709871> | All reachable assignments to alarm_set assign 1, register removed by optimization.</font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mone_init[0] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mone_init[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mone_init[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mone_init[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mten_init[0] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mten_init[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mten_init[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Mten_init[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sone_init[0] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sone_init[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sone_init[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sone_init[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sten_init[0] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sten_init[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sten_init[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:603:3:603:9:@N:CL189:@XP_MSG">Lab3_140L.v(603)</a><!@TM:1559709871> | Register bit r_Sten_init[3] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\countrce.v:33:7:33:15:@N:CG364:@XP_MSG">countrce.v(33)</a><!@TM:1559709871> | Synthesizing module countrce in library work.
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\countrce.v:61:9:61:10:@N:CG179:@XP_MSG">countrce.v(61)</a><!@TM:1559709871> | Removing redundant assignment.
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="D:\PhotonUser\blahlab5\countrce.v:45:24:45:29:@W:CG360:@XP_MSG">countrce.v(45)</a><!@TM:1559709871> | Removing wire qMone, as there is no assignment to it.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\regrce.v:39:7:39:13:@N:CG364:@XP_MSG">regrce.v(39)</a><!@TM:1559709871> | Synthesizing module regrce in library work.
+
+	WIDTH=32'b00000000000000000000000000000100
+   Generated name = regrce_4s
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\regrce.v:54:9:54:10:@N:CG179:@XP_MSG">regrce.v(54)</a><!@TM:1559709871> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:243:9:243:13:@N:CG364:@XP_MSG">Lab3_140L.v(243)</a><!@TM:1559709871> | Synthesizing module didp in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\bcd2segment.v:49:7:49:18:@N:CG364:@XP_MSG">bcd2segment.v(49)</a><!@TM:1559709871> | Synthesizing module bcd2segment in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\dispString.v:13:7:13:17:@N:CG364:@XP_MSG">dispString.v(13)</a><!@TM:1559709871> | Synthesizing module dispString in library work.
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\dispString.v:39:11:39:14:@N:CG179:@XP_MSG">dispString.v(39)</a><!@TM:1559709871> | Removing redundant assignment.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:27:7:27:16:@N:CG364:@XP_MSG">Lab3_140L.v(27)</a><!@TM:1559709871> | Synthesizing module Lab3_140L in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:225:11:225:12:@W:CG781:@XP_MSG">Lab3_140L.v(225)</a><!@TM:1559709871> | Input dInP on instance display is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+<font color=#A52A2A>@W:<a href="@W:CG781:@XP_HELP">CG781</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:226:13:226:14:@W:CG781:@XP_MSG">Lab3_140L.v(226)</a><!@TM:1559709871> | Input rdyInP on instance display is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. </font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:96:2:96:8:@N:CL189:@XP_MSG">Lab3_140L.v(96)</a><!@TM:1559709871> | Register bit displayAlarm[7] is always 0.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\NBitCounter.v:31:7:31:20:@N:CG364:@XP_MSG">NBitCounter.v(31)</a><!@TM:1559709871> | Synthesizing module N_bit_counter in library work.
+
+	N=32'b00000000000000000000000000001010
+	N_1=32'b00000000000000000000000000001001
+   Generated name = N_bit_counter_10s_9s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\NBitCounter.v:31:7:31:20:@N:CG364:@XP_MSG">NBitCounter.v(31)</a><!@TM:1559709871> | Synthesizing module N_bit_counter in library work.
+
+	N=32'b00000000000000000000000000001001
+	N_1=32'b00000000000000000000000000001000
+   Generated name = N_bit_counter_9s_8s
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v:1124:7:1124:18:@N:CG364:@XP_MSG">sb_ice40.v(1124)</a><!@TM:1559709871> | Synthesizing module SB_RAM512x8 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:635:7:635:29:@N:CG364:@XP_MSG">vbuf.v(635)</a><!@TM:1559709871> | Synthesizing module latticeDulPortRam512x8 in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:66:7:66:11:@N:CG364:@XP_MSG">vbuf.v(66)</a><!@TM:1559709871> | Synthesizing module vbuf in library work.
+
+	CLKFREQ=32'b00000000101101110001101100000000
+	BAUD=32'b00000000000000011100001000000000
+	CYCLES_PER_BYTE=32'b00000000000000000000010001001100
+	CYCLES_PER_4_BITS=32'b00000000000000000000001000100110
+	COUNT_WIDTH=32'b00000000000000000000000000001010
+	BYTES_PER_RAW=32'b00000000000000000000000000100000
+	RAWS_4_USER=32'b00000000000000000000000000000010
+	RAWS_4_CLK=32'b00000000000000000000000000001110
+	LAST_BYTES_4_USER=32'b00000000000000000000000000111111
+	LAST_BYTES_4_CLK=32'b00000000000000000000000111111111
+	rd_clk_init=32'b00000000000000000000000000000001
+	PRE_COUNTER_WIDTH=32'b00000000000000000000000000000100
+	PRE_COUNTER_MAX_NUMBER=32'b00000000000000000000000000001111
+	SECOND_COUNTER_WIDTH=32'b00000000000000000000000000000110
+	l_count_reset=32'b00000000000000000000001000010111
+	l_count_reset_l_n=32'b00000000000000000000000000000110
+	l_count_trig_rd=32'b00000000000000000000000000000111
+	l_count_init=32'b00000000000000000000000100010100
+	l_count_rise_rdy=32'b00000000000000000000000000000111
+   Generated name = vbuf_Z1
+
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:200:27:200:38:@N:CG179:@XP_MSG">vbuf.v(200)</a><!@TM:1559709871> | Removing redundant assignment.
+@N:<a href="@N:CG179:@XP_HELP">CG179</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:502:77:502:94:@N:CG179:@XP_MSG">vbuf.v(502)</a><!@TM:1559709871> | Removing redundant assignment.
+<font color=#A52A2A>@W:<a href="@W:CL169:@XP_HELP">CL169</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:187:0:187:6:@W:CL169:@XP_MSG">vbuf.v(187)</a><!@TM:1559709871> | Pruning unused register l_count_15. Make sure that there are no unused intermediate registers.</font>
+@A:<a href="@A:CL282:@XP_HELP">CL282</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:218:0:218:6:@A:CL282:@XP_MSG">vbuf.v(218)</a><!@TM:1559709871> | Feedback mux created for signal r_data_reg[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A:<a href="@A:CL282:@XP_HELP">CL282</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:187:0:187:6:@A:CL282:@XP_MSG">vbuf.v(187)</a><!@TM:1559709871> | Feedback mux created for signal r_data_rdy. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[0] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[1] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[2] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[3] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[4] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[5] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[6] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[7] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[8] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[9] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[10] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[11] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[12] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[13] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[14] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[15] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[16] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[31] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[32] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[33] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[38] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[39] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[44] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[45] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[46] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[47] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[48] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[49] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[50] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[51] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[56] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[57] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[62] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[63] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[64] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[65] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[67] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[68] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[70] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[71] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[73] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[74] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[76] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[77] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[78] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[79] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[80] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[81] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[82] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[83] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[85] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[86] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[88] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[89] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[91] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[92] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[94] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[95] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[96] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[97] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[99] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[100] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[102] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[103] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[105] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[106] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[108] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[109] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[110] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[113] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[114] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[115] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[117] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[118] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[120] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[121] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[123] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[124] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[126] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[127] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[128] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[129] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[131] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[132] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[134] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[135] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[137] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[138] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[140] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[141] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[142] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[145] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[146] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[147] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[149] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[150] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[152] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[153] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[155] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[156] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[158] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[159] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[160] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[161] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[166] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[167] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[172] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[173] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[174] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[175] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[176] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[177] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[178] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[179] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[184] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[185] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[190] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[191] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[192] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[193] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[195] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[196] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[198] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[199] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[201] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[202] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[204] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[205] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[206] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[209] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[210] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[211] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[213] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[214] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[216] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[217] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[219] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[220] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[222] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[223] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[224] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[225] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[227] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[228] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[230] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[231] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[233] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[234] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[236] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[237] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[238] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[241] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[242] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[243] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[245] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[246] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[248] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[249] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[251] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[252] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[254] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[255] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[256] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[257] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[259] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[260] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[262] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[263] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[265] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[266] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[268] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[269] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[270] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[271] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[272] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[273] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[274] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[275] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[277] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[278] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[280] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[281] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[283] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[284] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[286] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[287] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[288] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[289] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[294] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[295] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[300] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[301] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[302] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[303] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[304] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[305] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[306] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[307] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[312] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[313] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[318] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[319] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[320] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[321] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[322] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[323] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[324] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[325] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[326] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[327] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[328] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[329] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[330] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[331] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[332] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[333] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[334] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[335] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[336] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[337] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[338] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[339] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[340] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[341] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[342] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[343] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[344] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[345] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[346] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[347] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[348] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[349] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[350] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[351] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[352] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[353] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[354] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[355] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[356] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[357] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[358] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[359] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[360] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[361] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[362] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[363] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[364] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[365] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[366] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[367] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[368] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[369] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[370] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[371] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[372] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[373] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[374] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[375] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[376] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[377] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[378] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[379] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[380] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[381] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[382] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[383] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[384] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[385] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[386] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[387] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[388] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[389] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[390] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[391] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[392] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[393] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[394] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[395] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[396] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[397] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[398] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[399] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[400] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[401] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[402] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[403] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[404] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[405] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[406] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[407] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[408] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[409] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[410] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[411] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[412] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[413] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[414] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[415] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[416] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[417] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[418] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[419] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[420] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[421] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[422] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[423] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[424] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[425] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[426] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[427] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[428] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[429] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[430] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[431] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[432] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[433] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[434] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[435] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[436] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[437] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[438] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[439] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[440] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[441] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[442] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[443] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[444] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[445] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[446] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@N:CL189:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Register bit bitmap[447] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 447 to 318 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 313 to 312 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 307 to 300 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 295 to 294 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 289 to 286 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 284 to 283 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 281 to 280 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 278 to 277 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 275 to 268 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 266 to 265 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 263 to 262 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 260 to 259 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 257 to 254 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 252 to 251 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 249 to 248 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 246 to 245 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 243 to 241 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 238 to 236 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 234 to 233 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 231 to 230 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 228 to 227 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 225 to 222 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 220 to 219 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 217 to 216 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 214 to 213 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 211 to 209 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 206 to 204 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 202 to 201 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 199 to 198 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 196 to 195 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 193 to 190 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 185 to 184 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 179 to 172 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 167 to 166 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 161 to 158 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 156 to 155 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 153 to 152 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 150 to 149 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 147 to 145 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 142 to 140 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 138 to 137 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 135 to 134 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 132 to 131 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 129 to 126 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 124 to 123 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 121 to 120 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 118 to 117 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 115 to 113 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 110 to 108 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 106 to 105 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 103 to 102 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 100 to 99 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 97 to 94 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 92 to 91 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 89 to 88 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 86 to 85 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 83 to 76 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 74 to 73 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 71 to 70 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 68 to 67 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 65 to 62 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 57 to 56 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 51 to 44 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 39 to 38 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 33 to 0 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:95:7:95:18:@N:CG364:@XP_MSG">latticehx1k.v(95)</a><!@TM:1559709871> | Synthesizing module latticehx1k in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:173:20:173:30:@W:CG360:@XP_MSG">latticehx1k.v(173)</a><!@TM:1559709871> | Removing wire bu_tx_busy, as there is no assignment to it.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 317 to 315 of bitmap[317:314]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 311 to 309 of bitmap[311:308]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 299 to 297 of bitmap[299:296]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 293 to 291 of bitmap[293:290]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL260:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bit 240 of bitmap[240:239]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL260:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bit 208 of bitmap[208:207]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 189 to 187 of bitmap[189:186]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 183 to 181 of bitmap[183:180]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 171 to 169 of bitmap[171:168]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 165 to 163 of bitmap[165:162]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL260:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bit 144 of bitmap[144:143]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL260:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bit 112 of bitmap[112:111]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 61 to 59 of bitmap[61:58]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 55 to 53 of bitmap[55:52]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 43 to 41 of bitmap[43:40]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL279:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Pruning register bits 37 to 35 of bitmap[37:34]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+<font color=#A52A2A>@W:<a href="@W:CL177:@XP_HELP">CL177</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:457:0:457:6:@W:CL177:@XP_MSG">vbuf.v(457)</a><!@TM:1559709871> | Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:80:18:80:26:@N:CL159:@XP_MSG">vbuf.v(80)</a><!@TM:1559709871> | Input alarm_on is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:82:12:82:31:@N:CL159:@XP_MSG">vbuf.v(82)</a><!@TM:1559709871> | Input enable_pulling_mode is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\vbuf.v:83:12:83:26:@N:CL159:@XP_MSG">vbuf.v(83)</a><!@TM:1559709871> | Input data_sink_busy is unused.
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:96:2:96:8:@W:CL260:@XP_MSG">Lab3_140L.v(96)</a><!@TM:1559709871> | Pruning register bit 3 of displayAlarm[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:96:2:96:8:@N:CL189:@XP_MSG">Lab3_140L.v(96)</a><!@TM:1559709871> | Register bit displayAlarm[7] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:96:2:96:8:@W:CL260:@XP_MSG">Lab3_140L.v(96)</a><!@TM:1559709871> | Pruning register bit 7 of displayAlarm[7:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\dispString.v:16:21:16:25:@N:CL159:@XP_MSG">dispString.v(16)</a><!@TM:1559709871> | Input dInP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\dispString.v:17:19:17:25:@N:CL159:@XP_MSG">dispString.v(17)</a><!@TM:1559709871> | Input rdyInP is unused.
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:332:3:332:9:@N:CL201:@XP_MSG">Lab3_140L.v(332)</a><!@TM:1559709871> | Trying to extract state machine for register curr_LED.
+Extracted state machine for register curr_LED
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+<font color=#A52A2A>@W:<a href="@W:CL246:@XP_HELP">CL246</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:258:17:258:27:@W:CL246:@XP_MSG">Lab3_140L.v(258)</a><!@TM:1559709871> | Input port bits 7 to 4 of bu_rx_data[7:0] are unused. Assign logic for all port bits or change the input port size.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:271:16:271:25:@N:CL159:@XP_MSG">Lab3_140L.v(271)</a><!@TM:1559709871> | Input Sone_init is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:272:16:272:25:@N:CL159:@XP_MSG">Lab3_140L.v(272)</a><!@TM:1559709871> | Input Sten_init is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:273:16:273:25:@N:CL159:@XP_MSG">Lab3_140L.v(273)</a><!@TM:1559709871> | Input Mone_init is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:274:16:274:25:@N:CL159:@XP_MSG">Lab3_140L.v(274)</a><!@TM:1559709871> | Input Mten_init is unused.
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:983:4:983:8:@W:CL260:@XP_MSG">Lab3_140L.v(983)</a><!@TM:1559709871> | Pruning register bit 3 of nextState_al[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+<font color=#A52A2A>@W:<a href="@W:CL260:@XP_HELP">CL260</a> : <a href="D:\PhotonUser\blahlab5\Lab3_140L.v:589:3:589:9:@W:CL260:@XP_MSG">Lab3_140L.v(589)</a><!@TM:1559709871> | Pruning register bit 2 of currState_al[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</font>
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 05 04:44:30 2019
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1559709871> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:95:7:95:18:@N:NF107:@XP_MSG">latticehx1k.v(95)</a><!@TM:1559709871> | Selected library: work cell: latticehx1k view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:95:7:95:18:@N:NF107:@XP_MSG">latticehx1k.v(95)</a><!@TM:1559709871> | Selected library: work cell: latticehx1k view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 05 04:44:31 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 05 04:44:31 2019
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1559709872> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:95:7:95:18:@N:NF107:@XP_MSG">latticehx1k.v(95)</a><!@TM:1559709872> | Selected library: work cell: latticehx1k view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="D:\PhotonUser\blahlab5\latticehx1k.v:95:7:95:18:@N:NF107:@XP_MSG">latticehx1k.v(95)</a><!@TM:1559709872> | Selected library: work cell: latticehx1k view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 05 04:44:32 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Jun 05 04:44:32 2019
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A:<a href="@A:MF827:@XP_HELP">MF827</a> : <!@TM:1559709873> | No constraint file specified. 
+Linked File: <a href="D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5_scck.rpt:@XP_FILE">mylab5_scck.rpt</a>
+Printing clock  summary report in "D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1559709873> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1559709873> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist latticehx1k
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start                                        Requested     Requested     Clock                                 Clock                     Clock
+Clock                                        Frequency     Period        Type                                  Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------
+System                                       1.0 MHz       1000.000      system                                system_clkgroup           15   
+latticehx1k_pll|PLLOUTCORE_derived_clock     4.0 MHz       252.545       derived (from latticehx1k|clk_in)     Autoconstr_clkgroup_0     286  
+latticehx1k|clk_in                           4.0 MHz       252.545       inferred                              Autoconstr_clkgroup_0     0    
+==============================================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT531:@XP_HELP">MT531</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:983:4:983:8:@W:MT531:@XP_MSG">lab3_140l.v(983)</a><!@TM:1559709873> | Found signal identified as System clock which controls 15 sequential elements including Lab_UT.dictrl.nextState_al[2:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </font>
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1559709873> | Writing default property annotation file D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Encoding state machine curr_LED[3:0] (in view: work.didp(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:332:3:332:9:@N:MO225:@XP_MSG">lab3_140l.v(332)</a><!@TM:1559709873> | There are no possible illegal states for state machine curr_LED[3:0] (in view: work.didp(verilog)); safe FSM implementation is not required.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\vbuf.v:457:0:457:6:@N:BN362:@XP_MSG">vbuf.v(457)</a><!@TM:1559709873> | Removing sequential instance vram_wr_tap_4_user[1] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\vbuf.v:457:0:457:6:@N:BN362:@XP_MSG">vbuf.v(457)</a><!@TM:1559709873> | Removing sequential instance vram_wr_tap_4_user[0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 05 04:44:33 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jun 05 04:44:33 2019
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1559709881> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1559709881> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT206:@XP_HELP">MT206</a> : <!@TM:1559709881> | Auto Constrain mode is enabled 
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\vbuf.v:457:0:457:6:@N:BN362:@XP_MSG">vbuf.v(457)</a><!@TM:1559709881> | Removing sequential instance vram_wr_tap_4_user[1:0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@W:FX1039:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | User-specified initial value defined for instance buart._rx.hh[1:0] is being ignored. </font>
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:MO231:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Found counter in view:work.rxuart(verilog) instance bitcount[4:0] 
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:983:4:983:8:@W:MO129:@XP_MSG">lab3_140l.v(983)</a><!@TM:1559709881> | Sequential instance Lab_UT.dictrl.nextState_al[2] is reduced to a combinational gate by constant propagation.</font>
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance currState_al[3] (in view: work.dictrl(verilog)) because it does not drive other instances.
+Encoding state machine curr_LED[3:0] (in view: work.didp(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N:<a href="@N:MO225:@XP_HELP">MO225</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:332:3:332:9:@N:MO225:@XP_MSG">lab3_140l.v(332)</a><!@TM:1559709881> | There are no possible illegal states for state machine curr_LED[3:0] (in view: work.didp(verilog)); safe FSM implementation is not required.
+<font color=#A52A2A>@W:<a href="@W:MO129:@XP_HELP">MO129</a> : <a href="d:\photonuser\blahlab5\dispstring.v:32:3:32:9:@W:MO129:@XP_MSG">dispstring.v(32)</a><!@TM:1559709881> | Sequential instance Lab_UT.display.dOut[7] is reduced to a combinational gate by constant propagation.</font>
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 153MB peak: 153MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_al[1] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_al[0] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState[2] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState[3] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_0[3] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_0[2] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState[1] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState[0] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_1[3] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_1[2] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_0[1] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_0[0] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_1[1] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_2[3] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:BN362:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Removing sequential instance Lab_UT.dictrl.currState_1[0] (in view: work.latticehx1k(verilog)) because it does not drive other instances.
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 154MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 140MB peak: 154MB)
+
+<font color=#A52A2A>@W:<a href="@W:BN132:@XP_HELP">BN132</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:983:4:983:8:@W:BN132:@XP_MSG">lab3_140l.v(983)</a><!@TM:1559709881> | Removing instance Lab_UT.dictrl.nextState_al[1] because it is equivalent to instance Lab_UT.dictrl.nextState_al[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</font>
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 154MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 154MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 143MB peak: 154MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 144MB peak: 154MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 194MB peak: 197MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		    -6.69ns		 712 /       290
+   2		0h:00m:03s		    -6.69ns		 683 /       290
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[2] (in view: work.latticehx1k(verilog)) with 28 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[3] (in view: work.latticehx1k(verilog)) with 30 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[4] (in view: work.latticehx1k(verilog)) with 19 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[5] (in view: work.latticehx1k(verilog)) with 21 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[7] (in view: work.latticehx1k(verilog)) with 21 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[1] (in view: work.latticehx1k(verilog)) with 26 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[6] (in view: work.latticehx1k(verilog)) with 21 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.bitcount[2] (in view: work.latticehx1k(verilog)) with 14 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.shifter[0] (in view: work.latticehx1k(verilog)) with 20 loads 2 times to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.bitcount[4] (in view: work.latticehx1k(verilog)) with 10 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\buart.v:185:2:185:8:@N:FX271:@XP_MSG">buart.v(185)</a><!@TM:1559709881> | Replicating instance buart._rx.bitcount[3] (in view: work.latticehx1k(verilog)) with 10 loads 1 time to improve timing.
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:FX271:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Replicating instance Lab_UT.dictrl.currState_3[3] (in view: work.latticehx1k(verilog)) with 35 loads 2 times to improve timing.
+Timing driven replication report
+Added 22 Registers via timing driven replication
+Added 4 LUTs via timing driven replication
+
+   3		0h:00m:05s		    -3.24ns		 824 /       312
+   4		0h:00m:06s		    -2.49ns		 825 /       312
+   5		0h:00m:06s		    -1.84ns		 826 /       312
+   6		0h:00m:06s		    -1.84ns		 827 /       312
+@N:<a href="@N:FX271:@XP_HELP">FX271</a> : <a href="d:\photonuser\blahlab5\lab3_140l.v:589:3:589:9:@N:FX271:@XP_MSG">lab3_140l.v(589)</a><!@TM:1559709881> | Replicating instance Lab_UT.dictrl.currState_2[0] (in view: work.latticehx1k(verilog)) with 35 loads 3 times to improve timing.
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 3 LUTs via timing driven replication
+
+
+   7		0h:00m:06s		    -1.84ns		 826 /       315
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <a href="d:\photonuser\blahlab5\latticehx1k.v:365:14:365:34:@N:FX1017:@XP_MSG">latticehx1k.v(365)</a><!@TM:1559709881> | SB_GB inserted on the net clk.
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <a href="d:\photonuser\blahlab5\latticehx1k.v:84:3:84:9:@N:FX1017:@XP_MSG">latticehx1k.v(84)</a><!@TM:1559709881> | SB_GB inserted on the net rst.
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1559709881> | SB_GB inserted on the net buart._rx.sample. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1559709881> | SB_GB inserted on the net Lab_UT.uu0.un11_l_count_i. 
+@N:<a href="@N:FX1017:@XP_HELP">FX1017</a> : <!@TM:1559709881> | SB_GB inserted on the net uu0.un11_l_count_i. 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 161MB peak: 217MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 162MB peak: 217MB)
+
+@N:<a href="@N:MT611:@XP_HELP">MT611</a> : <!@TM:1559709881> | Automatically generated clock latticehx1k_pll|PLLOUTCORE_derived_clock is not used and is being removed 
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 318 clock pin(s) of sequential element(s)
+0 instances converted, 318 sequential instances remain driven by gated/generated clocks
+
+=============================================================================================================== Gated/Generated Clocks ================================================================================================================
+Clock Tree ID     Driving Element                               Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|S:latticehx1k_pll_inst.latticehx1k_pll_inst@|E:uu2.w_addr_user[6]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       latticehx1k_pll_inst.latticehx1k_pll_inst     SB_PLL40_CORE          318        uu2.w_addr_user[6]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=======================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 133MB peak: 217MB)
+
+Writing Analyst data base D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\synwork\mylab5_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 160MB peak: 217MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1559709881> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1559709881> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1559709881> | Writing EDF file: D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 161MB peak: 217MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 158MB peak: 217MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1559709881> | Found inferred clock latticehx1k|clk_in with period 15.56ns. Please declare a user-defined clock on object "p:clk_in"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Wed Jun 05 04:44:41 2019
+#
+
+
+Top view:               latticehx1k
+Requested Frequency:    64.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1559709881> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1559709881> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -3.025
+
+                       Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group                
+----------------------------------------------------------------------------------------------------------------------------
+latticehx1k|clk_in     64.3 MHz      NA            15.558        NA            NA         inferred     Autoconstr_clkgroup_0
+System                 58.3 MHz      49.6 MHz      17.140        20.165        -3.025     system       system_clkgroup      
+============================================================================================================================
+@N:<a href="@N:MT582:@XP_HELP">MT582</a> : <!@TM:1559709881> | Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack 
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise  
+----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack 
+----------------------------------------------------------------------------------------------------------
+System    System  |  17.140      -3.025  |  17.140      7.480  |  17.140      5.850  |  17.140      -1.012
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: System</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                                  Starting                                                  Arrival           
+Instance                          Reference     Type         Pin     Net                    Time        Slack 
+                                  Clock                                                                       
+--------------------------------------------------------------------------------------------------------------
+buart._rx.bitcount_es[1]          System        SB_DFFES     Q       bitcount[1]            0.540       -3.025
+buart._rx.bitcount_2_rep1_es      System        SB_DFFES     Q       bitcount_2_rep1        0.540       -3.018
+buart._rx.bitcount_fast_es[3]     System        SB_DFFES     Q       bitcount_fast[3]       0.540       -2.990
+buart._rx.shifter_fast[4]         System        SB_DFFER     Q       bu_rx_data_fast[4]     0.540       -2.962
+buart._rx.shifter_fast[0]         System        SB_DFFER     Q       bu_rx_data_fast[0]     0.540       -2.941
+buart._rx.bitcount_fast_es[4]     System        SB_DFFES     Q       bitcount_fast[4]       0.540       -2.926
+buart._rx.shifter_fast[5]         System        SB_DFFER     Q       bu_rx_data_fast[5]     0.540       -2.913
+buart._rx.shifter_fast[6]         System        SB_DFFER     Q       bu_rx_data_fast[6]     0.540       -2.892
+buart._rx.shifter_fast[2]         System        SB_DFFER     Q       bu_rx_data_fast[2]     0.540       -2.870
+buart._rx.shifter_fast[7]         System        SB_DFFER     Q       bu_rx_data_fast[7]     0.540       -2.828
+==============================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                                     Starting                                                           Required           
+Instance                             Reference     Type        Pin     Net                              Time         Slack 
+                                     Clock                                                                                 
+---------------------------------------------------------------------------------------------------------------------------
+Lab_UT.dictrl.nextState[1]           System        SB_DFF      D       nextState                        17.035       -3.025
+Lab_UT.dictrl.dicLdAMtens            System        SB_DFFR     D       dicLdAMtens_0                    17.035       -1.289
+Lab_UT.dictrl.dicLdMones             System        SB_DFF      D       dicLdMones_0                     17.035       -1.289
+Lab_UT.dictrl.dicLdMtens             System        SB_DFF      D       dicLdMtens_0                     17.035       -1.289
+Lab_UT.dictrl.dicLdSones             System        SB_DFF      D       dicLdSones_0                     17.035       -1.289
+Lab_UT.dictrl.dicLdStens             System        SB_DFF      D       dicLdStens_0                     17.035       -1.289
+Lab_UT.dictrl.nextState[0]           System        SB_DFFE     E       currState_0_ret_29_RNIDFRSEE     17.140       -1.254
+Lab_UT.dictrl.nextState[2]           System        SB_DFFE     E       currState_0_ret_29_RNIDFRSEE     17.140       -1.254
+Lab_UT.dictrl.nextState[3]           System        SB_DFFE     E       currState_0_ret_29_RNIDFRSEE     17.140       -1.254
+Lab_UT.dictrl.currState_0_ret_28     System        SB_DFF      D       r_Sone_init17_4_reti             17.035       -1.219
+===========================================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="D:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5.srr:srsfD:\PhotonUser\blahlab5\mylab5\mylab5_Implmnt\mylab5.srs:fp:101872:105502:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      17.140
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         17.035
+
+    - Propagation time:                      20.059
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -3.025
+
+    Number of logic level(s):                10
+    Starting point:                          buart._rx.bitcount_es[1] / Q
+    Ending point:                            Lab_UT.dictrl.nextState[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+buart._rx.bitcount_es[1]                      SB_DFFES     Q        Out     0.540     0.540       -         
+bitcount[1]                                   Net          -        -       1.599     -           7         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      I0       In      -         2.139       -         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      O        Out     0.386     2.525       -         
+bitcount_fast_es_RNIAJ1G[3]                   Net          -        -       1.371     -           1         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      I1       In      -         3.896       -         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      O        Out     0.379     4.274       -         
+bu_rx_data_rdy                                Net          -        -       1.371     -           44        
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      I1       In      -         5.645       -         
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      O        Out     0.400     6.045       -         
+N_5_0_1                                       Net          -        -       1.371     -           2         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      I2       In      -         7.416       -         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      O        Out     0.379     7.795       -         
+G_30_0_0                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      I0       In      -         9.166       -         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      O        Out     0.449     9.615       -         
+G_30_0_2                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      I0       In      -         10.986      -         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      O        Out     0.449     11.434      -         
+nextState[1]                                  Net          -        -       1.371     -           16        
+Lab_UT.dictrl.nextState_RNO_9[1]              SB_LUT4      I0       In      -         12.805      -         
+Lab_UT.dictrl.nextState_RNO_9[1]              SB_LUT4      O        Out     0.386     13.191      -         
+nextState_RNO_9[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      I0       In      -         14.562      -         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      O        Out     0.449     15.011      -         
+nextState_RNO_4[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      I1       In      -         16.382      -         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      O        Out     0.400     16.782      -         
+g0_i_o4_5                                     Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      I1       In      -         18.153      -         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      O        Out     0.400     18.552      -         
+nextState                                     Net          -        -       1.507     -           1         
+Lab_UT.dictrl.nextState[1]                    SB_DFF       D        In      -         20.059      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 20.165 is 4.719(23.4%) logic and 15.445(76.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      17.140
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         17.035
+
+    - Propagation time:                      20.052
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -3.018
+
+    Number of logic level(s):                10
+    Starting point:                          buart._rx.bitcount_2_rep1_es / Q
+    Ending point:                            Lab_UT.dictrl.nextState[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+buart._rx.bitcount_2_rep1_es                  SB_DFFES     Q        Out     0.540     0.540       -         
+bitcount_2_rep1                               Net          -        -       1.599     -           5         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      I1       In      -         2.139       -         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      O        Out     0.379     2.518       -         
+bitcount_fast_es_RNIAJ1G[3]                   Net          -        -       1.371     -           1         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      I1       In      -         3.889       -         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      O        Out     0.379     4.267       -         
+bu_rx_data_rdy                                Net          -        -       1.371     -           44        
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      I1       In      -         5.638       -         
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      O        Out     0.400     6.038       -         
+N_5_0_1                                       Net          -        -       1.371     -           2         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      I2       In      -         7.409       -         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      O        Out     0.379     7.788       -         
+G_30_0_0                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      I0       In      -         9.159       -         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      O        Out     0.449     9.608       -         
+G_30_0_2                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      I0       In      -         10.979      -         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      O        Out     0.449     11.427      -         
+nextState[1]                                  Net          -        -       1.371     -           16        
+Lab_UT.dictrl.nextState_RNO_9[1]              SB_LUT4      I0       In      -         12.798      -         
+Lab_UT.dictrl.nextState_RNO_9[1]              SB_LUT4      O        Out     0.386     13.184      -         
+nextState_RNO_9[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      I0       In      -         14.555      -         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      O        Out     0.449     15.004      -         
+nextState_RNO_4[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      I1       In      -         16.375      -         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      O        Out     0.400     16.775      -         
+g0_i_o4_5                                     Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      I1       In      -         18.146      -         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      O        Out     0.400     18.545      -         
+nextState                                     Net          -        -       1.507     -           1         
+Lab_UT.dictrl.nextState[1]                    SB_DFF       D        In      -         20.052      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 20.157 is 4.712(23.4%) logic and 15.445(76.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      17.140
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         17.035
+
+    - Propagation time:                      20.024
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -2.990
+
+    Number of logic level(s):                10
+    Starting point:                          buart._rx.bitcount_fast_es[3] / Q
+    Ending point:                            Lab_UT.dictrl.nextState[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+buart._rx.bitcount_fast_es[3]                 SB_DFFES     Q        Out     0.540     0.540       -         
+bitcount_fast[3]                              Net          -        -       1.599     -           2         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      I2       In      -         2.139       -         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      O        Out     0.351     2.490       -         
+bitcount_fast_es_RNIAJ1G[3]                   Net          -        -       1.371     -           1         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      I1       In      -         3.861       -         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      O        Out     0.379     4.239       -         
+bu_rx_data_rdy                                Net          -        -       1.371     -           44        
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      I1       In      -         5.610       -         
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      O        Out     0.400     6.010       -         
+N_5_0_1                                       Net          -        -       1.371     -           2         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      I2       In      -         7.381       -         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      O        Out     0.379     7.760       -         
+G_30_0_0                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      I0       In      -         9.131       -         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      O        Out     0.449     9.579       -         
+G_30_0_2                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      I0       In      -         10.951      -         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      O        Out     0.449     11.399      -         
+nextState[1]                                  Net          -        -       1.371     -           16        
+Lab_UT.dictrl.nextState_RNO_9[1]              SB_LUT4      I0       In      -         12.770      -         
+Lab_UT.dictrl.nextState_RNO_9[1]              SB_LUT4      O        Out     0.386     13.156      -         
+nextState_RNO_9[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      I0       In      -         14.527      -         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      O        Out     0.449     14.976      -         
+nextState_RNO_4[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      I1       In      -         16.347      -         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      O        Out     0.400     16.747      -         
+g0_i_o4_5                                     Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      I1       In      -         18.118      -         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      O        Out     0.400     18.517      -         
+nextState                                     Net          -        -       1.507     -           1         
+Lab_UT.dictrl.nextState[1]                    SB_DFF       D        In      -         20.024      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 20.129 is 4.684(23.3%) logic and 15.445(76.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      17.140
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         17.035
+
+    - Propagation time:                      20.003
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -2.969
+
+    Number of logic level(s):                10
+    Starting point:                          buart._rx.bitcount_es[1] / Q
+    Ending point:                            Lab_UT.dictrl.nextState[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+buart._rx.bitcount_es[1]                      SB_DFFES     Q        Out     0.540     0.540       -         
+bitcount[1]                                   Net          -        -       1.599     -           7         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      I0       In      -         2.139       -         
+buart._rx.bitcount_fast_es_RNIAJ1G[3]         SB_LUT4      O        Out     0.386     2.525       -         
+bitcount_fast_es_RNIAJ1G[3]                   Net          -        -       1.371     -           1         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      I1       In      -         3.896       -         
+buart._rx.bitcount_es_RNIK0OS[0]              SB_LUT4      O        Out     0.379     4.274       -         
+bu_rx_data_rdy                                Net          -        -       1.371     -           44        
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      I1       In      -         5.645       -         
+Lab_UT.dictrl.currState_2_fast_RNIC98T[0]     SB_LUT4      O        Out     0.400     6.045       -         
+N_5_0_1                                       Net          -        -       1.371     -           2         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      I2       In      -         7.416       -         
+Lab_UT.dictrl.nextState_RNIO37J1[1]           SB_LUT4      O        Out     0.379     7.795       -         
+G_30_0_0                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      I0       In      -         9.166       -         
+Lab_UT.dictrl.currState_0_ret_29_RNINPDOC     SB_LUT4      O        Out     0.449     9.615       -         
+G_30_0_2                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      I0       In      -         10.986      -         
+Lab_UT.dictrl.currState_0_ret_21_RNI66NNS     SB_LUT4      O        Out     0.449     11.434      -         
+nextState[1]                                  Net          -        -       1.371     -           16        
+Lab_UT.dictrl.nextState_RNO_10[1]             SB_LUT4      I1       In      -         12.805      -         
+Lab_UT.dictrl.nextState_RNO_10[1]             SB_LUT4      O        Out     0.400     13.205      -         
+g0_i_o4_0_0                                   Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      I2       In      -         14.576      -         
+Lab_UT.dictrl.nextState_RNO_4[1]              SB_LUT4      O        Out     0.379     14.955      -         
+nextState_RNO_4[1]                            Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      I1       In      -         16.326      -         
+Lab_UT.dictrl.nextState_RNO_1[1]              SB_LUT4      O        Out     0.400     16.726      -         
+g0_i_o4_5                                     Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      I1       In      -         18.096      -         
+Lab_UT.dictrl.nextState_RNO[1]                SB_LUT4      O        Out     0.400     18.496      -         
+nextState                                     Net          -        -       1.507     -           1         
+Lab_UT.dictrl.nextState[1]                    SB_DFF       D        In      -         20.003      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 20.108 is 4.663(23.2%) logic and 15.445(76.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      17.140
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         17.035
+
+    - Propagation time:                      19.996
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -2.962
+
+    Number of logic level(s):                10
+    Starting point:                          buart._rx.shifter_fast[4] / Q
+    Ending point:                            Lab_UT.dictrl.nextState[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+buart._rx.shifter_fast[4]                  SB_DFFER     Q        Out     0.540     0.540       -         
+bu_rx_data_fast[4]                         Net          -        -       1.599     -           2         
+Lab_UT.dictrl.decoder.de_num_1_2           SB_LUT4      I0       In      -         2.139       -         
+Lab_UT.dictrl.decoder.de_num_1_2           SB_LUT4      O        Out     0.449     2.588       -         
+de_num_1_2                                 Net          -        -       1.371     -           3         
+Lab_UT.dictrl.decoder.de_num0to5_1         SB_LUT4      I0       In      -         3.959       -         
+Lab_UT.dictrl.decoder.de_num0to5_1         SB_LUT4      O        Out     0.449     4.408       -         
+de_num0to5_1                               Net          -        -       1.371     -           22        
+Lab_UT.dictrl.nextState_1_3_0_.m4          SB_LUT4      I1       In      -         5.779       -         
+Lab_UT.dictrl.nextState_1_3_0_.m4          SB_LUT4      O        Out     0.379     6.157       -         
+N_5                                        Net          -        -       1.371     -           2         
+Lab_UT.dictrl.nextState_1_3_0_.g0_6        SB_LUT4      I2       In      -         7.528       -         
+Lab_UT.dictrl.nextState_1_3_0_.g0_6        SB_LUT4      O        Out     0.379     7.907       -         
+N_6_0                                      Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_1_3_0_.g0_11       SB_LUT4      I1       In      -         9.278       -         
+Lab_UT.dictrl.nextState_1_3_0_.g0_11       SB_LUT4      O        Out     0.379     9.657       -         
+N_10_0_0                                   Net          -        -       1.371     -           1         
+Lab_UT.dictrl.currState_2_RNIDED951[2]     SB_LUT4      I1       In      -         11.028      -         
+Lab_UT.dictrl.currState_2_RNIDED951[2]     SB_LUT4      O        Out     0.400     11.427      -         
+nextState[0]                               Net          -        -       1.371     -           32        
+Lab_UT.dictrl.nextState_RNO_10[1]          SB_LUT4      I0       In      -         12.798      -         
+Lab_UT.dictrl.nextState_RNO_10[1]          SB_LUT4      O        Out     0.449     13.247      -         
+g0_i_o4_0_0                                Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_4[1]           SB_LUT4      I2       In      -         14.618      -         
+Lab_UT.dictrl.nextState_RNO_4[1]           SB_LUT4      O        Out     0.351     14.969      -         
+nextState_RNO_4[1]                         Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO_1[1]           SB_LUT4      I1       In      -         16.340      -         
+Lab_UT.dictrl.nextState_RNO_1[1]           SB_LUT4      O        Out     0.379     16.718      -         
+g0_i_o4_5                                  Net          -        -       1.371     -           1         
+Lab_UT.dictrl.nextState_RNO[1]             SB_LUT4      I1       In      -         18.090      -         
+Lab_UT.dictrl.nextState_RNO[1]             SB_LUT4      O        Out     0.400     18.489      -         
+nextState                                  Net          -        -       1.507     -           1         
+Lab_UT.dictrl.nextState[1]                 SB_DFF       D        In      -         19.996      -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 20.101 is 4.656(23.2%) logic and 15.445(76.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 158MB peak: 217MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 158MB peak: 217MB)
+
+---------------------------------------
+<a name=resourceUsage17></a>Resource Usage Report for latticehx1k </a>
+
+Mapping to part: ice40hx1ktq144
+Cell usage:
+GND             38 uses
+SB_CARRY        19 uses
+SB_DFF          74 uses
+SB_DFFE         3 uses
+SB_DFFER        71 uses
+SB_DFFES        10 uses
+SB_DFFESR       4 uses
+SB_DFFNE        8 uses
+SB_DFFNESR      6 uses
+SB_DFFNESS      1 use
+SB_DFFNS        2 uses
+SB_DFFNSR       40 uses
+SB_DFFR         29 uses
+SB_DFFS         6 uses
+SB_DFFSR        53 uses
+SB_DFFSS        8 uses
+SB_GB           5 uses
+SB_PLL40_CORE   1 use
+SB_RAM512x8     1 use
+VCC             38 uses
+SB_LUT4         801 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_IO          10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   315 (24%)
+
+RAM/ROM usage summary
+Block Rams : 1 of 16 (6%)
+
+Total load per clock:
+   latticehx1k|clk_in: 1
+
+@S |Mapping Summary:
+Total  LUTs: 801 (62%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 801 = 801 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 30MB peak: 217MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Wed Jun 05 04:44:41 2019
+
+###########################################################]
+
+</pre></samp></body></html>

@@ -1,0 +1,1 @@
+@W: MT531 :"d:\photonuser\blahlab5\lab3_140l.v":983:4:983:7|Found signal identified as System clock which controls 15 sequential elements including Lab_UT.dictrl.nextState_al[2:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 

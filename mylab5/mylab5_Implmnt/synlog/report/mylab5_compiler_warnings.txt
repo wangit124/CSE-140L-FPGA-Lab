@@ -1,0 +1,152 @@
+@W: CS133 :"D:\PhotonUser\blahlab5\vbuf.v":67:12:67:22|Ignoring property syn_useioff
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":368:47:368:47|Input EXTFEEDBACK on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":369:48:369:48|Input DYNAMICDELAY on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":372:51:372:51|Input LATCHINPUTVALUE on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":374:39:374:39|Input SDI on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":376:40:376:40|Input SCLK on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":48:33:48:35|Input LATCH_INPUT_VALUE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":48:33:48:35|Input CLOCK_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":48:33:48:35|Input OUTPUT_CLK on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":48:33:48:35|Input OUTPUT_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":48:33:48:35|Input D_OUT_1 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\latticehx1k.v":48:33:48:35|Input D_OUT_0 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG1273 :"D:\PhotonUser\blahlab5\latticehx1k.v":49:21:49:23|An input port (port pin) is the target of an assignment - please check if this is intentional
+@W: CL265 :"D:\PhotonUser\blahlab5\buart.v":185:2:185:7|Removing unused bit 2 of hh[2:0]. Either assign all bits or reduce the width of the signal.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdStens; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdSones; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdMtens; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdMones; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal nextState[3:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":983:4:983:7|Latch generated from always block for signal nextState_al[3:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdAStens; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdASones; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdAMtens; possible missing assignment in an if or case statement.
+@W: CL118 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|Latch generated from always block for signal r_dicLdAMones; possible missing assignment in an if or case statement.
+@W: CL207 :"D:\PhotonUser\blahlab5\Lab3_140L.v":758:4:758:7|All reachable assignments to alarm_set assign 1, register removed by optimization.
+@W: CG360 :"D:\PhotonUser\blahlab5\countrce.v":45:24:45:28|Removing wire qMone, as there is no assignment to it.
+@W: CG781 :"D:\PhotonUser\blahlab5\Lab3_140L.v":225:11:225:11|Input dInP on instance display is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\PhotonUser\blahlab5\Lab3_140L.v":226:13:226:13|Input rdyInP on instance display is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CL169 :"D:\PhotonUser\blahlab5\vbuf.v":187:0:187:5|Pruning unused register l_count_15. Make sure that there are no unused intermediate registers.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 447 to 318 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 313 to 312 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 307 to 300 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 295 to 294 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 289 to 286 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 284 to 283 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 281 to 280 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 278 to 277 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 275 to 268 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 266 to 265 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 263 to 262 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 260 to 259 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 257 to 254 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 252 to 251 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 249 to 248 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 246 to 245 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 243 to 241 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 238 to 236 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 234 to 233 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 231 to 230 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 228 to 227 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 225 to 222 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 220 to 219 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 217 to 216 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 214 to 213 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 211 to 209 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 206 to 204 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 202 to 201 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 199 to 198 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 196 to 195 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 193 to 190 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 185 to 184 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 179 to 172 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 167 to 166 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 161 to 158 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 156 to 155 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 153 to 152 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 150 to 149 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 147 to 145 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 142 to 140 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 138 to 137 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 135 to 134 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 132 to 131 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 129 to 126 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 124 to 123 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 121 to 120 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 118 to 117 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 115 to 113 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 110 to 108 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 106 to 105 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 103 to 102 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 100 to 99 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 97 to 94 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 92 to 91 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 89 to 88 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 86 to 85 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 83 to 76 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 74 to 73 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 71 to 70 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 68 to 67 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 65 to 62 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 57 to 56 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 51 to 44 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 39 to 38 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 33 to 0 of bitmap[447:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG360 :"D:\PhotonUser\blahlab5\latticehx1k.v":173:20:173:29|Removing wire bu_tx_busy, as there is no assignment to it.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 317 to 315 of bitmap[317:314]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 311 to 309 of bitmap[311:308]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 299 to 297 of bitmap[299:296]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 293 to 291 of bitmap[293:290]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bit 240 of bitmap[240:239]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bit 208 of bitmap[208:207]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 189 to 187 of bitmap[189:186]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 183 to 181 of bitmap[183:180]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 171 to 169 of bitmap[171:168]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 165 to 163 of bitmap[165:162]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bit 144 of bitmap[144:143]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bit 112 of bitmap[112:111]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 61 to 59 of bitmap[61:58]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 55 to 53 of bitmap[55:52]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 43 to 41 of bitmap[43:40]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Pruning register bits 37 to 35 of bitmap[37:34]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\PhotonUser\blahlab5\vbuf.v":457:0:457:5|Sharing sequential element bitmap. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL260 :"D:\PhotonUser\blahlab5\Lab3_140L.v":96:2:96:7|Pruning register bit 3 of displayAlarm[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\PhotonUser\blahlab5\Lab3_140L.v":96:2:96:7|Pruning register bit 7 of displayAlarm[7:4]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"D:\PhotonUser\blahlab5\Lab3_140L.v":258:17:258:26|Input port bits 7 to 4 of bu_rx_data[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL260 :"D:\PhotonUser\blahlab5\Lab3_140L.v":983:4:983:7|Pruning register bit 3 of nextState_al[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\PhotonUser\blahlab5\Lab3_140L.v":589:3:589:8|Pruning register bit 2 of currState_al[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
